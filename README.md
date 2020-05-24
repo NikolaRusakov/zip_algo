@@ -18,4 +18,8 @@ deno run test
 ```
 
 ### Docker
-- TBD
+- run test with docker
+```bash
+docker run -it --init -p 1993:1993 -v $PWD:/app hayd/alpine-deno:1.0.1 test /app/node/zipItems.test.ts
+```
+
