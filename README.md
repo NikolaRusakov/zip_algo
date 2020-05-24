@@ -11,14 +11,15 @@ testing module and benchmarking without the need introducing additional packages
 
 ## How to run
 ### Local
-install from [here](https://deno.land/#installation)
+install Deno runtime from [here](https://deno.land/#installation)
 - run tests 
 ```bash
 deno run test
 ```
 
 ### Docker
-- run test with docker
+used docker image [here](https://hub.docker.com/r/hayd/alpine-deno/)
+- run zipItems test suite with docker
 ```bash
 docker run -it --init -p 1993:1993 -v $PWD:/app hayd/alpine-deno:1.0.1 test /app/node/zipItems.test.ts
 ```
