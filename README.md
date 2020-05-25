@@ -5,8 +5,8 @@
 - an output returns a new combination of sequences ending with an item of first sequence regardless of parity or other conditions
 
 ## Technology pick
-- I've picked alternative Node runtime, Deno to have type safety,  
-testing module and benchmarking without the need introducing additional packages or libraries.
+- I've picked alternative Node / Browser runtime, [Deno](https://deno.land/) to have additional type safety,  
+standard testing module and benchmarking without the need introducing additional packages or libraries.
 - Algorithm implementation is purely written in TypeScript.
 - for a simple spec of algorithm I've used JavaScript (TypeScript) implementation. If spec. would require additional requirements such as perf. optimization, I'd prefer Rust or Golang counterparts.
 
