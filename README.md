@@ -14,6 +14,7 @@ testing module and benchmarking without the need introducing additional packages
 
 ### Local
 prerequisite -> installed Deno runtime from [here](https://deno.land/#installation)
+
 - to run tests 
 ```bash
 deno run test
@@ -21,7 +22,9 @@ deno run test
 
 ### Docker
 prerequisite -> installed Docker
-used apline docker image [here](https://hub.docker.com/r/hayd/alpine-deno/)
+
+Docker uses Apline Deno Docker image from [here](https://hub.docker.com/r/hayd/alpine-deno/)
+
 - to run zipItems test suite with docker
 ```bash
 docker run -it --init -p 1993:1993 -v $PWD:/app hayd/alpine-deno:1.0.1 test /app/node/zipItems.test.ts
