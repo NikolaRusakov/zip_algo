@@ -105,7 +105,7 @@ const preprocessInsertionList = (sequenceOne: number[]) =>
       }).fmap((e) => insertItemAtOffset(e)({ period, offset }));
 
       do {
-        // partial currying applied to inject period to fmap fn
+        // curried because fmap passes functor context and curried function injects period to processNextInsertion fn
         insertionFn = insertionFn.fmap((e) => processNextInsertion(e)(period));
       } while (insertionFn.next === true);
       return insertionFn.valueOf();
