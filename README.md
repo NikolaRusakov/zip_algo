@@ -17,7 +17,7 @@ prerequisite -> installed Deno runtime from [here](https://deno.land/#installati
 
 - to run tests 
 ```bash
-deno run test
+deno test
 ```
 
 ### Docker
