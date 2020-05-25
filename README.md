@@ -8,7 +8,7 @@
 - I've picked alternative Node runtime, Deno.js to have type safety,  
 testing module and benchmarking without the need introducing additional packages or libraries
 - Algorithm implementation is purely written in TypeScript
-- for a simple spec of algorithm I've used javascript implementation. If spec. would require additional requirements such as perf. optimization, I'd prefer Rust or Golang counterparts.
+- for a simple spec of algorithm I've used JavaScript (TypeScript) implementation. If spec. would require additional requirements such as perf. optimization, I'd prefer Rust or Golang counterparts.
 
 ## How to run
 
