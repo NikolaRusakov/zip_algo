@@ -126,10 +126,10 @@ const overrideWithGeneratedItem = (
   };
 
 /**
- * @description preprocesses insertion list based on offset and period,
- * <br/> generates secondary sequence items from factory.
- * <br/> And reduces list of preprocessed sequence one with generated secondary sequence items
- * @returns number[] Overridden insertion list by secondary sequence items
+ * @description zipItems Preprocesses insertion list based on offset and period,
+ * <br/> calls secondaryItemsFactory once with exact parameter length and generates secondary sequence items.
+ * <br/> And reduces list of preprocessed sequence one with generated secondary sequence items.
+ * @returns number[] Insertion list of sequence one overridden by generated secondary sequence items
  * */
 export const zipItems = (
   primaryItems: number[],
