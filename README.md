@@ -23,7 +23,7 @@ deno run test
 ### Docker
 prerequisite -> installed Docker
 
-Docker uses Apline Deno Docker image from [here](https://hub.docker.com/r/hayd/alpine-deno/)
+Docker uses Alpine Deno Docker image from [here](https://hub.docker.com/r/hayd/alpine-deno/)
 
 - to run zipItems test suite with docker
 ```bash
