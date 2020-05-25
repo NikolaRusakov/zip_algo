@@ -28,6 +28,6 @@ Docker uses Alpine Deno Docker image from [here](https://hub.docker.com/r/hayd/a
 - to run zipItems test suite with docker
 ```bash
 // $PWD has to be root directory of repository
-docker run -it --init -p 1993:1993 -v $PWD:/app hayd/alpine-deno:1.0.1 test /app/node/zipItems.test.ts
+docker run -it --init -p 1993:1993 -v $PWD:/app hayd/alpine-deno:1.0.1 test
 ```
 
